@@ -1,7 +1,9 @@
 package app;
 
 import exceptions.LivroInvalidoException;
+import exceptions.UsuarioInvalidoException;
 import model.Livro;
+import model.Usuario;
 
 public class Main {
 
@@ -14,5 +16,11 @@ public class Main {
 		} catch (LivroInvalidoException e) {
 			System.out.println("Erro ao criar livro:" + e.getMessage());
 		}
+	 try {
+		 Usuario user = new Usuario("Thiago Sales", "thiagoSales@gmail.com", "3299948244");
+		 
+	 }catch (UsuarioInvalidoException e) {
+	 System.out.println("Erro ao criar nome: " + e.getMessage());
+	 }
 	}
 }
