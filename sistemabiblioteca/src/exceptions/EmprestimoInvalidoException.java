@@ -1,7 +1,7 @@
 package exceptions;
 
-public class EmprestinoInvalidoException  extends Exception{
-	public EmprestinoInvalidoException(String mensagem) {
+public class EmprestimoInvalidoException  extends Exception{
+	public EmprestimoInvalidoException(String mensagem) {
 		super(mensagem);
 	}
 }
