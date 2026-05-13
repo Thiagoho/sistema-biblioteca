@@ -18,7 +18,7 @@ public class Main {
 		}
 	 try {
 		 Usuario user = new Usuario("Thiago Sales", "thiagoSales@gmail.com", "3299948244");
-		 
+		 System.out.println("Nome Criado!");
 	 }catch (UsuarioInvalidoException e) {
 	 System.out.println("Erro ao criar nome: " + e.getMessage());
 	 }
