@@ -19,28 +19,28 @@ public class Livro {
 
         if (titulo == null || titulo.trim().isEmpty()) {
 
-            throw new LivroInvalidoException(
+            throw new LivroInvalidoException (
                     "O título do livro não pode ser vazio."
             );
         }
 
         if (autor == null || autor.trim().isEmpty()) {
 
-            throw new LivroInvalidoException(
+            throw new LivroInvalidoException (
                     "O autor do livro não pode ser vazio."
             );
         }
 
         if (anoPublicacao <= 0) {
 
-            throw new LivroInvalidoException(
+            throw new LivroInvalidoException (
                     "Ano de publicação inválido."
             );
         }
 
         if (quantidadeDisponivel < 0) {
 
-            throw new LivroInvalidoException(
+            throw new LivroInvalidoException (
                     "A quantidade não pode ser negativa."
             );
         }

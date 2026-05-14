@@ -25,16 +25,18 @@ public class Usuario {
 	}
 
 	// Getters
-	public String nome() {
+	public String getNome() {
 		return nome;
 	}
 
-	public String email() {
+	public String getEmail() {
 		return email;
 
 	}
 
-	public String telefone() {
+	public String getTelefone() {
 		return telefone;
 	}
+
+
 }
