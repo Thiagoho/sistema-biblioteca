@@ -1,4 +1,4 @@
-Como 0 sistema funciona 
+Como o sistema funciona 
 Ao iniciar a aplicação, o usuário visualiza um menu no terminal com as opções disponíveis.
 O sistema mantém os dados em memória enquanto o programa estiver em execução.
 
@@ -7,17 +7,21 @@ O usuário informa:
 - TÍTULO
 - AUTOR
 - ANO DO PUBLICAÇÃO
-- QUANTIDADE DISPONÍVELO sistema valida se os dados são válidos antes de cadastrar o livro.
-CADASTRO DE USUÁRIOSO usuário informa:
+- QUANTIDADE DISPONÍVEL
+O sistema valida se os dados são válidos antes de cadastrar o livro.
+CADASTRO DE USUÁRIOS
+O usuário informa:
 - NOME
 - E-MAIL
-- TELEFONEO sistema valida se os campos obrigatórios foram preenchidos corretamentes.
+- TELEFONE
+O sistema valida se os campos obrigatórios foram preenchidos corretamentes.
 EMPRÉSTIMO DE LIVROS
 Para realizar um empréstimo, o sistema solicita o ID do usuário e o ID do livro.
 Antes de confirmar o empréstimo, o sistema verifica:
 - Se o usuário existe
 - Se o livro existe
-- Se o livro possui quantidade disponível- Se o usuário já possui empréstimo ativo do mesmo livro
+- Se o livro possui quantidade disponível
+- Se o usuário já possui empréstimo ativo do mesmo livro
 Se todos as regras forem atendidas, livro é emprestado e a quantidade disponível é reduzida.
 DEVOLUÇÃO DE LIVROS
 Para realizar uma devolução, o sistema solicita o ID do usuário e o ID do livro.
