@@ -13,8 +13,9 @@ import service.BibliotecaService;
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.println("Esta na Página de Cadastro Bibliotecário.");
 		Scanner scanner = new Scanner(System.in);
-
+		
 		BibliotecaService biblioteca = new BibliotecaService();
 		int opcao = 0;
 		System.out.println("=================================");
